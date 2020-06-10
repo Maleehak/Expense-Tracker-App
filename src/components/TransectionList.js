@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
-import {GlobalContext} from '../context/GlobalState'
-import {Transection} from './Transection'
+import {GlobalContext} from '../context/GlobalState';
+import {Transection} from './Transection';
 
 export const TransectionList = () => {
     const {transections}=useContext(GlobalContext);
